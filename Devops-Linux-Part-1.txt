@@ -1,0 +1,96 @@
+1.Introduction to Devops
+
+ >what is sdlc
+ >type of sdlc models
+ >what is water fall and agile model
+ >limitations in waterfall and agile model
+ >devops life cycle-its all about "continuous"
+ >what is CI/CD
+ >Tools and technologies
+ >roles and responsibilities
+
+
+Note: must  understand the  philosophy of DevOPs[Before  decide to work ]
+
+
+2.Prerequisites for Devops engineer
+ >understanding the life cycle of the project
+ >understand the teams,their cultures,tasks,challenges and deadlines
+ >having good amount of knowledge on following topics
+     .server-side operating system-Linux
+     .networking
+     .database
+     .storage
+     .security
+     .webservers,appservers,proxy/reverse-proxy,caching servers
+     .monitoring
+     .troubleshooting
+     .peformance analysis,tuning,optimization
+     .understanding the monolithic/soa/microservice based architectures
+     .migrations 
+              
+ >must have expertise or at least good understanding over scripting languages-shell/python.
+ >required to understand and develop yaml/xml/json files
+ >understand the how to apply the ci/cd pipelines to diff technologies like java/.net/nodejs/reactjs
+
+3.Introduction to Linux Administration
+      >introduction to Booting Procedure of RHEL
+      >File Management
+      >disk and volume managment,LVM,RAID Levels
+      >memory management/swap management
+      >user management
+      >process management
+      >job automation
+      >service management
+      >package management
+      >dns management
+      >network management
+      >log management
+      >database maagement
+      >backup manamgenet
+      >remote ssh management,
+      >security/Managing SELinux
+      >webhosting
+      >configuration of webservers/appservers/proxy servers 
+      >FTP/NFS/Samba Servers
+      
+
+4. Introduction to Shell Scripting
+     what is shell scripting
+     types of shells
+     how to configure the shells
+     what to work with shell scripting 
+     variables[local,environment,shell and read-only]
+     keywords
+     operators
+     substitution/quoting
+     conditional statements/flow control
+     Loops[for,while,until,select]
+     jumping statements[break,continue]
+     parameters
+     input/output
+     Arrays and string Handling
+     file handling
+     introduction to sed/awk programming
+     Handling xml/json files
+     signals and traps
+     debugging
+     functions
+
+use-case: using shell scripts, lets do a kind of deployment .
+
+Note: we will build various live-scripts using shell
+
+Assignment: conduct one technical test on linux as well as scripting based execution.
+
+>deep dive into peformance analysis,tuning,optimization
+
+covered topics: Linux servers/database servers/webservers/proxy servers/app servers/shell scripting
+    
+
+
+     
+     
+   
+     
+               
