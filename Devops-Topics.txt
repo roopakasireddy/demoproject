@@ -1,0 +1,504 @@
+Introduction to Version Control-GIT
+******************************************
+*Installing Git
+*Setting up Git on operating systems.
+*Configuring Git
+*Basic configuration settings
+*Understanding the Git object model.
+*Exploring the .git directory.
+*Git Configurations
+*Advanced configuration settings.
+*Creating a Repository
+*Initializing a new Git repository.
+*Git Internal
+*Git Aliases:
+Creating custom shortcuts.
+*Git and Shell Integration
+*Using Git with command-line utilities.
+*Basic Git Commands:
+*Branching:
+*Understanding branches.
+*Creating and switching branches (git branch, git checkout, git switch).
+*Merging:
+*Merging branches (git merge).
+*Handling merge conflicts.
+*Remote Repositories:
+ *Introduction to remote repositories.
+ Adding a remote (git remote).
+      Pushing and pulling changes (git push, git pull).
+*Intermediate Topics:
+      Collaboration:
+      Forking repositories on GitHub.
+*Creating pull requests.
+*Branch Management:
+       Deleting branches (git branch -d, git branch -D).
+*Undoing Changes:
+       Resetting changes (git reset).
+       Reverting changes (git revert).
+*Tagging:
+       Creating and managing tags.
+*Git Ignore:
+       Ignoring files and directories.
+*Stashing:
+       Stashing changes (git stash).
+*Advanced Merging:
+        Merge strategies (git merge -s)
+       Octopus merge.
+*Advanced Topics:
+       Interactive Rebase:
+       Squashing commits.
+       Rewriting commit messages.
+*Git Hooks:
+       Introduction to hooks.
+       Creating custom hooks.
+*Submodules:
+       Managing submodules.
+*Git Workflows:
+       Feature branching workflow.
+       Gitflow workflow.
+       GitHub flow.
+*GitHub Actions:
+   
+>Introduction to GITHUB
+*******************************
+*Creating a GitHub Account:
+*Signing up for a GitHub account.
+*Understanding the GitHub user interface.
+*Creating a Repository:
+*Creating a new repository on GitHub.
+*Choosing repository settings.
+*Cloning a Repository
+*Creating Issues:
+*Creating and managing issues for bug tracking or feature requests.
+*Pull Requests:
+*Creating a pull request to propose changes.
+*Reviewing and merging pull requests.
+*Branch Protection:
+*Enabling branch protection to control changes to specific branches.
+*Configuring required status checks and reviews.
+*Collaborators and Teams:
+*Adding collaborators to a repository.
+*Organizing collaborators into teams.
+*GitHub Pages:
+*Hosting a static website using GitHub Pages.
+*Branching Strategies on GitHub:
+*Understanding and implementing different branching strategies on GitHub.
+*Handling users,blockin users,team creation,project creations
+*Introduction to organizations
+*creating repositories at organization level
+*GitHub Projects:
+*Creating and managing projects on GitHub.
+*Using project boards for task tracking.
+*Release Management:
+    Release Branching:
+    Implement release branches for versioned releases.
+    Stabilize code for production releases.
+    Release Notes:
+    Generate release notes from Git history.
+    Communicate changes to users and stakeholders.
+    Version Tagging:
+    Tag releases with version numbers in Git.
+    Use tags for identifying release points.
+    Change Log Automation:
+    Automate the generation of change logs.
+    Include release information in documentation.
+*Rollbacks:
+    Perform rollbacks using Git tags.
+    Revert to a stable release state.
+*GitHub Wikis:
+    Creating and editing wikis for documentation.
+    Managing wiki pages and navigation.
+*GitHub Apps and Integrations:
+*Integrating third-party apps with GitHub.
+*Configuring GitHub Apps for automation.
+*GitHub REST API:
+    Interacting with GitHub programmatically using the REST API.
+    Automating tasks and fetching repository information.
+    GitHub GraphQL API:
+    Exploring the GraphQL API for more advanced queries and data retrieval.
+*GitHub CLI
+    Using the GitHub Command Line Interface for repository management.
+*GitHub Advanced Security
+========================================================================
+Introduction to BuildAutomation:--> Maven  
+*********************************************
+     Introduction to Maven:
+     Overview of Maven as a build and project management tool.
+     Maven project structure and conventions.
+     Maven Build Lifecycle:
+     Understanding Maven build phases (clean, validate, compile, test, package, install, deploy).
+     Executing specific build phases.
+     POM (Project Object Model):
+     Configuring Maven builds using the POM file.
+     Defining dependencies, plugins, and properties.
+     Maven Repositories:
+     Local, central, and remote repositories in Maven.
+     Configuring custom repositories.
+     Dependency Management:
+     Managing project dependencies using Maven.
+     Handling transitive dependencies.
+     Maven Profiles:
+     Defining and activating Maven profiles.
+     Conditional configuration based on profiles.
+     Multi-Module Projects:
+     Building and managing multi-module projects with Maven.
+     Inter-module dependencies and aggregation.
+     Custom Maven Plugins:
+     Developing and using custom Maven plugins.
+     Extending Maven functionality.
+     Maven Build Optimization:
+     Techniques for optimizing Maven builds.
+     Incremental builds and caching.
+     Maven Release Plugin:
+     Automating software releases with the Maven Release Plugin.
+     Versioning and tagging releases.
+
+
+>Introduction to Build Automation:--->SonarQube
+*************************************************
+    Introduction to SonarQube
+    Overview of SonarQube as a code quality and security analysis tool.
+    Integration with various build tools.
+    SonarQube Analysis
+    Running code analysis with SonarQube.
+    Configuring analysis parameters.
+    Quality Gates
+    Defining and enforcing quality gates in SonarQube.
+    Setting up quality gate conditions.
+    Custom Rules
+    Creating and managing custom code quality rules.
+    Extending SonarQube's rule set.
+    Branch Analysis
+    Analyzing and comparing code quality across different branches.    
+    Integration with feature branches.
+    Security Vulnerability Analysis
+    Identifying and addressing security vulnerabilities in code.
+    Integrating security plugins.
+    SonarQube and CI/CD Integration:
+    Integrating SonarQube into continuous integration pipelines.
+    Automated analysis on code changes.
+    Code Coverage Integration:
+    Integrating code coverage tools (e.g., JaCoCo) with SonarQube.
+    Analyzing test coverage metrics.
+
+>Introduction to Atifactory Managment:--->Jfrog
+*****************************************************
+
+    Introduction to JFrog Artifactory:
+    Overview of JFrog Artifactory as a binary repository manager.
+    Benefits of artifact management.
+    Artifact Storage and Retrieval:
+    Storing and retrieving artifacts in JFrog Artifactory.
+    Repository configurations.
+    Build Integration:
+    Integrating JFrog Artifactory with build tools (e.g., Maven, Gradle).
+    Publishing build artifacts.
+    Artifact Versioning:
+    Managing and versioning artifacts in JFrog Artifactory.
+    Snapshot and release versions.
+    Artifact Promotion:
+    Promoting artifacts through different repositories (e.g., from snapshots to releases).
+    Ensuring artifact integrity.
+    Repository Layouts:
+    Configuring and customizing repository layouts in JFrog Artifactory.
+    Maven, Gradle, and other layout types.
+    Access Control and Permissions:
+    Defining access control policies and permissions in JFrog Artifactory.
+    Securing repositories.
+    Artifactory Query Language (AQL):
+    Using AQL for advanced searches and queries in Artifactory.
+    Advanced repository management.
+    Xray Integration:
+    Integrating JFrog Xray for artifact scanning and security analysis.     
+    Identifying vulnerabilities and license compliance.
+    Artifactory High Availability (HA):
+    Configuring and managing high availability setups in Artifactory.
+    Ensuring redundancy and scalability.
+    Artifactory REST API:
+    Utilizing the Artifactory REST API for automation and integration.
+    Scripting interactions with Artifactory.
+
+
+>Introduction to BuildAutomation-using-Gradle
+***************************************************
+   Introduction to Gradle:
+   Overview of Gradle as a build automation tool.
+   Comparison with other build tools (e.g., Maven).
+   Gradle Projects and Tasks:
+   Understanding the structure of Gradle projects.
+   Defining and executing tasks in Gradle.
+   Build Script DSL:
+   Writing build scripts using the Groovy-based DSL (Domain-Specific Language).
+   Declaring dependencies and tasks.
+   Gradle Plugins:
+   Utilizing built-in and custom Gradle plugins.
+   Extending functionality with plugins.
+   Dependency Management:
+   Managing project dependencies using Gradle.
+   Declaring and resolving dependencies.
+   Advanced Gradle Usage:
+   Multi-Project Builds:
+   Configuring and managing multi-project builds.
+   Inter-project dependencies and task sharing.
+   Custom Tasks and Plugins:
+   Creating custom tasks to perform specific actions.
+   Developing and applying custom plugins.
+   Build Profiles:
+   Configuring build profiles for different environments.
+   Managing environment-specific configurations.
+   Gradle Wrapper:
+   Using the Gradle Wrapper for version control of Gradle itself.
+   Bootstrapping projects with the wrapper.
+   Incremental Builds:
+   Leveraging incremental builds for improved performance.
+   Understanding how Gradle avoids unnecessary work.
+   Testing and Quality Assurance:
+   Unit Testing with Gradle:
+   Configuring and executing unit tests.
+   Integration with testing frameworks (e.g., JUnit).
+   Integration Testing:
+   Setting up and running integration tests in Gradle.
+   Separating different test types.
+   Code Quality Analysis:
+   Integrating static code analysis tools (e.g., FindBugs, PMD) with Gradle.
+   Generating and interpreting reports.
+   Code Coverage:
+   Configuring code coverage tools (e.g., JaCoCo) in Gradle.
+   Analyzing code coverage metrics.
+   Test Reports:
+   Generating and customizing test reports in Gradle.
+   Viewing and interpreting test results.
+   Continuous Integration with Gradle:
+   Jenkins Gradle Integration:
+   Integrating Gradle with Jenkins for continuous integration.
+   Configuring Jenkins pipelines for Gradle projects.
+   GitHub Actions with Gradle:
+   Configuring GitHub Actions workflows for Gradle projects.
+   Leveraging Gradle caching for efficient builds.
+   Advanced Build Configuration:
+   Custom Dependency Resolvers:
+   Implementing custom dependency resolution strategies.
+   Extending Gradle's dependency resolution capabilities.
+   Build Configuration in Kotlin DSL:
+   Migrating build scripts to Kotlin DSL for improved type safety.
+  Configuring projects using Kotlin.
+  Custom Configuration Phases:
+  Defining and using custom configuration phases in Gradle.
+  Fine-tuning build process execution.
+  Dynamic Task Generation:
+  Dynamically generating tasks based on project needs.
+  Implementing flexible and reusable build logic.
+  Build Time Metrics:
+  Measuring and optimizing build times in Gradle.
+  Identifying performance bottlenecks.
+  Plugin Development in Kotlin:
+  Developing Gradle plugins using Kotlin.
+  Building and distributing custom plugins.
+  Deployment and Distribution:
+  Artifact Publishing:
+  Configuring artifact publishing to repositories (e.g., Maven Central).
+  Uploading artifacts to repositories.
+  Application Distribution: 
+  Creating distribution packages for applications.
+  Customizing distribution contents.
+  Containerization with Docker:
+  Integrating Gradle builds with Docker for containerization.
+  Building and pushing Docker images.
+  Deployment Strategies:
+  Implementing different deployment strategies (e.g., blue-green deployments).
+  Coordinating deployments with Gradle.
+  Versioning and Releases:
+  Automating versioning and release processes with Gradle.
+  Tagging and publishing releases.
+ 
+>Introduction to webservers
+>Introduction to appservers
+>Introduction to proxy,reverse proxyservers
+introdcution  to caching servers
+>introduction to database servers
+
+>Implementing CI practices for java based environments-Java/J2EE:
+*******************************************************************
+   Use popular build tools like Maven or Gradle
+   Configure the build script to compile, package, and test the application.
+   Testing:
+   Integrate unit testing frameworks (e.g., JUnit).
+   Configure the CI pipeline to run tests automatically.
+   CI Server Integration:
+   Use CI servers like Jenkins, GitLab CI
+   Set up Jenkins jobs or CI configurations in the chosen CI server.
+   Artifact Management:
+   Publish build artifacts to a repository (e.g., Nexus, Artifactory).
+   Ensure dependency management is in place.
+   Deployment:
+   Deploy to environments (e.g., staging, production) based on successful builds.
+   Automate deployment scripts using tools like Ansible or Docker.
+
+
+>Implementing CI practices for java based environments-.NET
+***************************************************************
+    Utilize MSBuild for .NET projects.
+    Configure the build script to compile, package, and test.
+    Testing
+    Integrate testing frameworks like MSTest or NUnit.
+    Run unit tests and generate test reports.
+    CI Server Integration
+    Use CI servers like Azure DevOps, Jenkins
+    Configure CI/CD pipelines in Azure DevOps or equivalent.
+    Artifact Management
+    Publish NuGet packages to a repository (e.g., NuGet Gallery, Azure Artifacts).
+    Manage dependencies effectively.
+    Deployment
+    Deploy using tools  Azure DevOps Release Pipelines.
+    Automate deployment steps.
+
+>Implementingg CI practices for NODE.JS/REACT.JS
+********************************************************
+     Use npm or yarn for Node.js projects.
+     Define build scripts in package.json.
+     Integrate testing frameworks like Jest for React.js.
+     Run unit tests and report coverage.
+     CI Server Integration:
+     Use CI servers like Jenkins, GitLab CI, or GitHub Actions.
+     Configure CI workflows in YAML or equivalent.
+     Artifact Management:
+     Publish npm packages to the npm registry or use a private registry.
+     Ensure proper versioning.
+     Deployment:
+     Deploy to platforms like AWS, Azure.
+
+
+Introduction to Containers-Docker
+************************************
+>Basics of Docker
+>Introduction to Containers
+>Understand the concept of containerization.
+>Compare containers to virtual machines.
+>Installing Docker
+>Install Docker Engine on various operating systems.
+>Configure Docker to start on boot.
+>Docker architecture
+>Docker Images
+>Pulling and pushing Docker images from/to Docker Hub.
+>Docker Containers
+>Managing container lifecycle.
+>Docker Registry
+>Set up a private Docker registry.
+>Push and pull images from a private registry.
+>Dockerfile and Image Creation:
+>Dockerfile Basics
+>Understand the structure of Dockerfiles.
+>Dockerfile Instructions:
+>Explore Dockerfile instructions (FROM, RUN, COPY, etc.).
+>Layering and image caching.
+>Multi-Stage Builds
+>Use multi-stage builds for smaller and more secure images.
+>Optimize image size and layers.
+>Docker Compose
+>Define and manage multi-container applications with Docker Compose.
+>Use YAML to configure multi-container environments.
+>Docker Networking
+>Understand Docker networking.
+>Create custom Docker networks and connect containers.
+>Advanced Docker Concepts
+>Docker Volumes
+>Persist data with Docker volumes.
+>Mount volumes in containers.
+>Docker Swarm
+>Introduction to Docker Swarm for orchestration.
+>Setting up a Swarm cluster.
+>Docker Secrets and Configs:
+>Manage sensitive information using Docker secrets.
+>Use Docker configs for dynamic configuration.
+>Healthchecks and Restart Policies:
+>Implement healthchecks for container health monitoring.
+>Configure restart policies for containers.
+>Docker API
+>Interact with the Docker API.
+>Use Docker Remote API for automation.
+>Container Security:
+>Container Security Best Practices:
+>Implement security best practices for Docker containers.
+>Regularly update base images and dependencies.
+>Docker Content Trust:
+>Enable Docker Content Trust for signed images.
+>Verify image signatures.
+>SELinux and AppArmor:
+>Configure Docker with SELinux or AppArmor.
+>Enhance container security with mandatory access controls.
+>Docker Bench Security:
+>Use Docker Bench Security for security auditing.
+>Implement recommendations for a secure Docker environment.
+>Docker Monitoring and Logging:
+>Docker Logs:
+>Access and manage Docker container logs.
+>Utilize log drivers for advanced logging.
+>Docker Stats:
+>Monitor Docker container resource usage with docker stats.
+>Understand container performance metrics.
+>Prometheus and Grafana with Docker:
+>Set up Prometheus and Grafana for Docker monitoring.
+>Create dashboards to visualize container metrics.
+>Docker Events:
+>Monitor Docker events using docker events.
+>Create automated actions based on events.
+>Dockerizing Databases:
+>Run databases in Docker containers.
+>Persist data using Docker volumes.
+>Dockerizing Web Servers:
+>Containerize web servers like Nginx or Apache.
+>Configure reverse proxies and SSL termination.
+>Microservices Architecture with Docker:
+>Implement a microservices architecture using Docker.
+>Dockerize individual services.
+>Docker and CI/CD:
+>Docker in CI/CD Pipelines:
+>Integrate Docker into CI/CD workflows.
+>Automate image building and deployment.
+>Docker Registry Webhooks:
+>Set up Docker registry webhooks.
+>Trigger CI/CD pipelines on image updates.
+>Blue-Green Deployments with Docker:
+>Implement blue-green deployments using Docker.
+>Minimize downtime during deployments.
+>Docker Performance Optimization:
+>Docker Container Resource Limits:
+>Set resource limits on Docker containers.
+>Optimize CPU, memory, and disk usage.
+>Docker Storage Drivers:
+>Understand different Docker storage drivers.
+>Choose appropriate storage drivers for performance.
+
+Impelmenting cicd implemention using: autoscaling,elb,git,github,maven,docker
+             ecr,ecs,codecommit,codebuild,codedeploy and codepipeline
+
+*************************************************************
+Dockerizing Applications:
+   Java Applications with Docker:
+   Dockerize a Java application.
+   Use official Java base images.
+
+  .NET Applications with Docker:
+   Dockerize a .NET application.
+   Utilize multi-stage builds for .NET Core applications.
+
+   Node.js Applications with Docker:
+   Dockerize a Node.js application.
+   Handle npm dependencies and build artifacts.
+
+   Python Applications with Docker:
+   Dockerize a Python application.
+   Use virtual environments and requirements.txt
+************************************************************ 
+
+Introductionto Container-orchestration:-->Kubernetes
+******************************************************
+Introduction to k8s architecture
+Installing and Configuring Kubernetes:
+Introduction to namespaces
+Introduction to pods,types of pods and pod communiation
+need of labels,selectors and annotations
+understanding and implmenting replica controllers,relicat sets
+
+
+
